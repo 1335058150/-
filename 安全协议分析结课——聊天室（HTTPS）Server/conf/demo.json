@@ -1,0 +1,47 @@
+{
+  "head": {
+    "register": 1,
+    "login:": 2,
+    "attach room": 3,
+    "send msg": 4,
+    "create room": 5
+  },
+  "bodydemo": {
+    "register": {
+      "Receieve": "1|{username}|[password_md5]//密码的md5为1表示游客",
+      "Send": "{userid}"
+    },
+    "login": {
+      "Receieve": "2|{username or userid}|{password_md5}//密码为1表示游客",
+      "Send": [true,false]
+    },
+    "attach room": {
+      "Receieve": "3|userid|roomid|roompass",
+      "Send": [true,false]
+    },
+    "send msg": {
+      "Receieve": "4|userid|roomid|msg",
+      "Send": [true,false]
+    },
+    "create room": {
+      "Receieve": "5|userid|username|roomtext|[roompasswd]",
+      "Send": [true,false]
+    }
+  },
+  "Heart": {
+    "head": {
+      "alive": 1,
+      "msg": 2
+    },
+    "bodydemo": {
+      "alive": {
+        "Send": "1",
+        "Receieve": "hello"
+      },
+      "msg": {
+        "Send": "2|msg",
+        "Receieve": "Copy"
+      }
+    }
+  }
+}

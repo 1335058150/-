@@ -1,0 +1,16 @@
+*********************
+[Tue May  3 10:34:42 2022]  Server Listening
+[Tue May  3 10:35:04 2022][127.0.0.1:14705]Received information : ** 2|aaa|12456 **
+[Tue May  3 10:35:04 2022][127.0.0.1:14705]Returned information : ** hxovn16514 **
+[Tue May  3 10:35:12 2022][127.0.0.1:14708]Received information : ** 5|hxovn16514|aaa|Welcome to my world|123456 **
+[Tue May  3 10:35:12 2022][127.0.0.1:14708]Returned information : ** 16515pqmnu **
+[Tue May  3 10:35:20 2022][127.0.0.1:14710]Received information : ** 3|hxovn16514|16514jepbh|123456 **
+[Tue May  3 10:35:20 2022][127.0.0.1:14710]Returned information : ** Sorry,the room id is not existed. **
+[Tue May  3 10:35:34 2022][127.0.0.1:14711]Received information : ** 3|hxovn16514|16515pqmnu|123456 **
+[Tue May  3 10:35:34 2022][127.0.0.1:14711]Returned information : ** Attach Successfully! **
+[Tue May  3 10:36:54 2022][127.0.0.1:14712]Received information : ** 4|hxovn16514|a|a **
+[Tue May  3 10:36:54 2022][127.0.0.1:14712]Returned information : ** 500 Server Error **
+[Tue May  3 10:37:16 2022][127.0.0.1:14714]Received information : ** 4|hxovn16514|a **
+[Tue May  3 10:37:16 2022][127.0.0.1:14714]Returned information : ** 500 Server Error **
+[Tue May  3 10:37:21 2022][127.0.0.1:14715]Received information : ** 4|hxovn16514|a|a|a **
+[Tue May  3 10:37:21 2022][127.0.0.1:14715]Returned information : ** 500 Server Error **
