@@ -1,0 +1,28 @@
+{
+  "CREATE BLOCK": {
+    "MESSAGE": "New Block Forged"
+  },
+  "NEW TRANSACTIONS": {
+  },
+  "REGISTER NODES": {
+    "E-NONE NODES": "Error: Please supply a valid list of nodes",
+    "ADD SUCCESSFULLY": "New nodes have been added"
+  },
+  "RESOLVE NODES": {
+    "REPLACE YES": "Our chain was replaced",
+    "REPLACE NO": "Our chain is authoritative"
+  },
+  "SELECT NOTHING": "Got nothing",
+  "FILE": {
+    "LOADING": {
+      "ERROR": [
+        "File Loading Error",
+        "File Reading Error"
+      ]
+    },
+    "SERIALIZATION": {
+      "SUCC SAVE": "Saving Successfully",
+      "FAIL SAVE": "Deserialization Error"
+    }
+  }
+}

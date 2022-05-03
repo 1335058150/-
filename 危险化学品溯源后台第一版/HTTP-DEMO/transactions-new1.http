@@ -1,0 +1,40 @@
+POST /transactions/new HTTP/1.1
+Host: 127.0.0.1:5000
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:95.0) Gecko/20100101 Firefox/95.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8
+Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
+Accept-Encoding: gzip, deflate
+Referer: http://127.0.0.1:5000/transactions/new
+Content-Type: application/json;charset=utf-8
+Origin: http://127.0.0.1:5000
+Connection: close
+Upgrade-Insecure-Requests: 1
+Sec-Fetch-Dest: document
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: same-origin
+Sec-Fetch-User: ?1
+
+{
+ "sender": "127.0.0.1",
+ "recipient": "localhost:5000",
+ "amount": 5,
+ "information":{
+   "stage": 1,
+   "num": 1,
+   "pmid": "72611dioz",
+   "pmname": "浓硫酸",
+   "ofrm": "XX省XX硫矿山",
+   "rmn": ["硫酸钠", "硫矿石"],
+   "vi": "XX省XX矿产销售场）",
+   "dp": ["强腐蚀性", "强酸性"],
+   "pd": "164517hgcx",
+   "ec": {
+     "Na2SO4": "2t",
+     "S": "0.5t"
+   },
+   "ep": {
+     "浓硫酸": "1.8T",
+     "SO2": "2L"
+   }
+ }
+}
